@@ -1,0 +1,235 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3405935, 2017-06-13T09:51:23-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: FF Netto Web Pro Bold by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/netto/pro-bold/
+ *
+ * Webfont: FF Netto Web Pro by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/netto/pro-regular/
+ *
+ * Webfont: FF Netto Web Pro Black by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/netto/pro-black/
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3405935
+ * Licensed pageviews: 50,000
+ * Webfonts copyright: 2012 Daniel Utz published by FSI FontShop
+ * International GmbH
+ *
+ * © 2017 MyFonts Inc
+*/
+
+/* @import must be at top of file, otherwise CSS will not work */
+
+@import url("//hello.myfonts.net/count/33f86f");
+@font-face {
+  font-family: "FFNettoWebProBold";
+  src: url("fonts/33F86F_0_0.eot");
+  src: url("fonts/33F86F_0_0.eot?#iefix") format("embedded-opentype");
+  src: url("fonts/33F86F_0_0.woff2") format("woff2");
+  src: url("fonts/33F86F_0_0.woff") format("woff");
+  src: url("fonts/33F86F_0_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FFNettoWebPro";
+  src: url("fonts/33F86F_1_0.eot");
+  src: url("fonts/33F86F_1_0.eot?#iefix") format("embedded-opentype");
+  src: url("fonts/33F86F_1_0.woff2") format("woff2");
+  src: url("fonts/33F86F_1_0.woff") format("woff");
+  src: url("fonts/33F86F_1_0.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-color: #fff;
+  color: #444;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content {
+  /* height: 800px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 130px;
+  width: 100%;
+  max-width: 798px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  margin-left: 10px;
+  height: 72px;
+  width: 111px;
+}
+
+.title {
+  /* width: 360px; */
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.access {
+  padding-top: 60px;
+  font-size: 38px;
+  font-family: "FFNettoWebPro"
+}
+
+.zero {
+  padding-top: 15px;
+  font-size: 38px;
+  font-family: "FFNettoWebProBold"
+}
+
+.enter {
+  padding-top: 75px;
+  color: #9D9D9D;
+  font-size: 20px;
+  font-family: "FFNettoWebPro"
+}
+
+form {
+  padding-top: 25px;
+
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  width: 100%;
+  font-family: "FFNettoWebPro";
+  padding-bottom: 10px;
+  font-size: 30px;
+  color: #444;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #F88800;
+}
+
+::placeholder {
+  color: #444;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #444;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #444;
+}
+
+.DD {
+  width: 25%;
+}
+
+.MM {
+  width: 25%;
+}
+
+.YYYY {
+  width: 40%;
+}
+
+label {
+  display: block;
+  padding-top: 10px;
+  color: #9D9D9D;
+  font-size: 14px;
+  font-family: "FFNettoWebPro";
+}
+
+button {
+  margin-top: 40px;
+  width: 360px;
+  height: 76px;
+  border-radius: 4px;
+  background-color: black;
+  color: #F88800;
+  font-size: 20px;
+  font-family: "FFNettoWebProBold";
+  border: none;
+}
+
+.trouble {
+  padding-top: 100px;
+  font-size: 16px;
+  font-family: "FFNettoWebProBold"
+}
+
+.contact {
+  padding-top: 50px;
+  font-size: 16px;
+  font-family: "FFNettoWebPro"
+}
+
+.email {
+  padding-top: 10px;
+  font-size: 16px;
+  font-family: "FFNettoWebPro";
+}
+
+a {
+  color: #F88800;
+  text-decoration: none;
+  font-family: "FFNettoWebPro";
+}
+
+/* iphone 6/7/8 Plus & Pixel 2*/
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+  .access {
+    padding-top: 30px;
+  }
+  .enter {
+    padding-top: 25px;
+  }
+  .trouble {
+    padding-top: 55px;
+  }
+  .contact {
+    padding-top: 30px;
+  }
+}
+
+/* smartphones */
+@media only screen and (max-width: 375px) {
+  .access {
+    padding-top: 20px;
+  }
+  .enter {
+    padding-top: 25px;
+  }
+  .trouble {
+    padding-top: 55px;
+  }
+  .contact {
+    padding-top: 30px;
+  }
+}
