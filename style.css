@@ -1,33 +1,3 @@
-/**
- * @license
- * MyFonts Webfont Build ID 3405935, 2017-06-13T09:51:23-0400
- *
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are
- * explicitly restricted from using the Licensed Webfonts(s).
- *
- * You may obtain a valid license at the URLs below.
- *
- * Webfont: FF Netto Web Pro Bold by FontFont
- * URL: https://www.myfonts.com/fonts/fontfont/netto/pro-bold/
- *
- * Webfont: FF Netto Web Pro by FontFont
- * URL: https://www.myfonts.com/fonts/fontfont/netto/pro-regular/
- *
- * Webfont: FF Netto Web Pro Black by FontFont
- * URL: https://www.myfonts.com/fonts/fontfont/netto/pro-black/
- *
- *
- * License: https://www.myfonts.com/viewlicense?type=web&buildid=3405935
- * Licensed pageviews: 50,000
- * Webfonts copyright: 2012 Daniel Utz published by FSI FontShop
- * International GmbH
- *
- * © 2017 MyFonts Inc
-*/
-
-/* @import must be at top of file, otherwise CSS will not work */
-
 @import url("//hello.myfonts.net/count/33f86f");
 @font-face {
   font-family: "FFNettoWebProBold";
@@ -63,7 +33,6 @@ body {
 }
 
 .content {
-  /* height: 800px; */
   display: flex;
   flex-direction: column;
 }
@@ -84,7 +53,6 @@ img {
 }
 
 .title {
-  /* width: 360px; */
   margin: 0 auto;
   padding-left: 10px;
   padding-right: 10px;
@@ -111,7 +79,6 @@ img {
 
 form {
   padding-top: 25px;
-
 }
 
 .date {
@@ -131,9 +98,9 @@ input {
 }
 
 ::placeholder {
+  /* Firefox */
   color: #444;
   opacity: 1;
-  /* Firefox */
 }
 
 :-ms-input-placeholder {
@@ -203,6 +170,7 @@ a {
 }
 
 /* iphone 6/7/8 Plus & Pixel 2*/
+
 @media only screen and (min-width: 376px) and (max-width: 414px) {
   .access {
     padding-top: 30px;
@@ -219,6 +187,7 @@ a {
 }
 
 /* smartphones */
+
 @media only screen and (max-width: 375px) {
   .access {
     padding-top: 20px;
